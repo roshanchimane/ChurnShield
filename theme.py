@@ -172,6 +172,10 @@ hr { border-color: #2d3748 !important; margin: 10px 0 !important; }
 }
 .page-title   { font-size: 1.4em; font-weight: 700; color: #f1f5f9; }
 .page-subtitle { font-size: 0.85em; color: #64748b; margin-top: 2px; margin-bottom: 0; }
+
+/* ── Always show sidebar, hide collapse button ── */
+[data-testid="collapsedControl"] { display: none !important; }
+section[data-testid="stSidebar"] { min-width: 220px !important; }
 </style>
 """
 
