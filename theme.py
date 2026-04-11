@@ -173,9 +173,18 @@ hr { border-color: #2d3748 !important; margin: 10px 0 !important; }
 .page-title   { font-size: 1.4em; font-weight: 700; color: #f1f5f9; }
 .page-subtitle { font-size: 0.85em; color: #64748b; margin-top: 2px; margin-bottom: 0; }
 
-/* ── Always show sidebar, hide collapse button ── */
-[data-testid="collapsedControl"] { display: none !important; }
-section[data-testid="stSidebar"] { min-width: 220px !important; }
+/* ── Always show sidebar, hide ALL close/collapse buttons ── */
+[data-testid="collapsedControl"]          { display: none !important; }
+button[kind="header"]                      { display: none !important; }
+[data-testid="stSidebar"] button[kind]    { display: none !important; }
+[data-testid="stSidebarCollapseButton"]   { display: none !important; }
+section[data-testid="stSidebar"]          { min-width: 220px !important; transform: none !important; }
+section[data-testid="stSidebar"][aria-expanded="false"] {
+    min-width: 220px !important;
+    width: 220px !important;
+    transform: none !important;
+    display: block !important;
+}
 </style>
 """
 
