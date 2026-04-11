@@ -6,7 +6,8 @@ st.set_page_config(
     page_title="ChurnShield",
     page_icon="🛡️",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="expanded",
+    menu_items=None
 )
 
 # ── Auto-retrain if models are incompatible ───────────────────────
