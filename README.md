@@ -1,2 +1,2 @@
 ## ChurnShield
-### E-Commerce
+### E-Commerce customer
