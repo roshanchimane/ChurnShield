@@ -1,2 +1,2 @@
 ## ChurnShield
-### E-Commerce Customer purchase prediction and Retention System
+### E-Commerce Customer Purchase prediction and Retention System
