@@ -1,2 +1,2 @@
 ## ChurnShield
-### E-Commerce customer purchase
+### E-Commerce customer purchase prediction
